@@ -8,8 +8,6 @@ import (
 	"strings"
 )
 
-var card_regex = "Card *([0-9]+): "
-
 func main() {
 	lines, err := internal.ReadLines("input.txt")
 	if err != nil {
